@@ -1,0 +1,10 @@
+.w3-sidebar .w3-bar-block .w3-card{
+    width: 12%;
+
+}
+
+.w3-teal, .w3-hover-teal:hover {
+    color: white!important;
+    /* background-color: #009688!important; */
+    background-color: lightgray!important;
+}
