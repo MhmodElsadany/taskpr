@@ -1,18 +1,70 @@
 .card{
-    direction: rtl; text-align:right
+    direction: rtl; text-align:right;
+    background-color: #f1f2f6;    padding-bottom: 20px;
+}
+h1.card-title{
+  color: #4D4B4B;
+  padding-right: 91px;
+}
+h3.card-title{
+  padding-right: 91px ;
+  color: #5F5D5D;
+  font-family: 'Amiri', serif;
+  font-family: 'Tajawal', sans-serif;
+}  
+h1{
+  font-family: 'Amiri', serif;
+  font-family: 'Tajawal', sans-serif;
+}
+h3{
+  font-family: 'Amiri', serif;
+  font-family: 'Tajawal', sans-serif;
+  
 }
 
 .LeftIcon {
-    position: absolute;   /*Needs to be Absolute Positioned to the parent relative div*/
-    top: 10%;   /*50% from the top*/
+    position: relative;   /*Needs to be Absolute Positioned to the parent relative div*/
+    top: -61px;
     left: -49px;   /*-10px left as the width is 20px*/
     transform: translate(0, -50%);   /*Moves postion of element*/
     text-align: center;   /*Aligns icon in center vertically*/
     line-height: 17px;    /*Aligns icon in center horizontally*/
-    width: 20px;
-    height: 19px;
-    border: 1px solid #FFF;
-    border-radius: 50%;
+    width: 1366px;
+    height: 18px;
+    /* background: black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    color: #00b894;
+    cursor: pointer;
+ }
+.firstIcon {
+    position: relative;   /*Needs to be Absolute Positioned to the parent relative div*/
+    top: 36px;
+    left: 685px;   /*-10px left as the width is 20px*/
+    transform: translate(0, -50%);   /*Moves postion of element*/
+    text-align: center;   /*Aligns icon in center vertically*/
+    line-height: 17px;    /*Aligns icon in center horizontally*/
+    width: 1366px;
+    height: 18px;
+    /* background: black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    color: #00b894;
+    cursor: pointer;
+ }
+.secondIcon {
+    position: relative;   /*Needs to be Absolute Positioned to the parent relative div*/
+    top: 17px;
+    left: 574px;   /*-10px left as the width is 20px*/
+    transform: translate(0, -50%);   /*Moves postion of element*/
+    text-align: center;   /*Aligns icon in center vertically*/
+    line-height: 17px;    /*Aligns icon in center horizontally*/
+    width: 1366px;
+    height: 18px;
     /* background: black; */
     display: flex;
     align-items: center;
@@ -25,39 +77,39 @@
     overflow: hidden;
     border: 1px solid #ccc;
     background-color: #f1f1f1;
-    width: 1420px;
+    width: 1312px;
     background-color: white;
     height: 126px;  
-    vertical-align: middle;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;    /* vertical-align: middle; */
+
     line-height: 90px; 
   }
   
   /* Style the buttons inside the tab */
   .tab button {
     background-color: inherit;
-    float: left;
+    /* float: left; */
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 14px 16px;
+    /* padding: 14px 16px; */
     transition: 0.3s;
     font-size: 17px;
   }
   
   /* Change background color of buttons on hover */
-  .tab button:hover {
-    background-color: #ddd;
-  }
+
   
   /* Create an active/current tablink class */
-  .tab button.active {
-    background-color: #ccc;
-  }
+
   
   /* Style the tab content */
   .tabcontent {
     display: none;
-    padding: 6px 12px;
+    /* padding: 6px 12px; */
+    width: 1314;
     border: 1px solid #ccc;
     border-top: none;
   }
@@ -89,4 +141,76 @@ padding: 10px;
   border-width: thin;width: 737px;height: 56px;
   border-radius: 11px;/* text-align: center; */padding-top: 15px;
   padding-right: 12px;
+}
+
+button.tablinks{
+  font-family: 'Ranchers', cursive;
+  font-family: 'Righteous', cursive;
+  font-family: 'Satisfy', cursive;  color: #828585;
+  font-weight: bold;
+}
+textarea.form-control{
+  line-height: 2.5;
+}
+div.container{
+  min-width:100%; width: 100%;
+}
+ul.list-group-flush{
+  padding-right: 0px;
+  border: 3px ridge  ;border-radius: 14px;
+}
+.label00{
+  cursor: pointer;
+}
+.div00 {
+  float: left; cursor: pointer
+}
+div.col-md-4{
+  float: left; cursor: pointer; text-align: center; padding-top: 10px;
+}
+i.fa-bell{
+  color: #4f4d4d;
+}
+i.fa-location-arrow{
+  color: #4f4d4d;
+}i.fa-plus-square{
+  color: #4f4d4d;
+}i.fa-cog{
+  color: #4f4d4d;
+}i.fa-question-circle{
+  color: #4f4d4d;
+}i.fa-plus-circle{
+  color: #4f4d4d;
+}i.fa-tag{
+  color: #4f4d4d;
+
+}
+#kk{
+  border-radius: 24px;
+  border-block-start: inherit;
+  border-top: 5px;
+  border-top: 11px solid #a29bfe;
+  border-top-right-radius: 34;
+}
+#colrss{
+  border-radius: 24px;
+  border-block-start: inherit;
+  border-top: 5px;
+  border-top: 11px solid #a29bfe;
+  border-top-right-radius: 34;
+}
+i.fa-trash-alt{
+position: relative;
+bottom: 13px;
+right: 30px; ; color:#00b894 ;
+}
+.info {
+  border-bottom: solid;
+  border-color: lightgray; 
+  color: #636e72;
+  margin-left: 46px;margin-right: 20px;
+}
+.infoo{
+  border-bottom: solid;border-color: lightgray;    color: #636e72;
+
 }

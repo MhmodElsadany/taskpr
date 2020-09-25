@@ -1,267 +1,399 @@
 <div class="container">
 
-    <div class="tab">
+    <div id="London" class="tabcontent">
 
-        <div class="div01">
-            <button class="tablinks">
-                <i class="fas fa-bell"></i>
-            </button>
-            <button class="tablinks">
-                <i class="fas fa-location-arrow"></i>
-            </button>
-            <button class="tablinks" > التحكم في
-                الرئيسية
-                <i class="fas fa-plus-circle"></i>
-            </button>
-            <button class="tablinks" > ادارة الطالب <i class="fas fa-cogs"></i>
-            </button>
-            <button class=" active" active onclick="openCity(event, 'London')"  id="defaultOpen">
-                بنك الاسئلة <i class="fas fa-question-circle"></i> </button>
-            <button class="tablinks" > تعديل المواد
-                <i class="fas fa-plus-circle"></i>
-            </button>
-            <button class="tablinks" >تعديل الملخصات <i
-                    class="fas fa-plus-circle"></i>
-            </button>
-            <button class="tablinks"> التحكم في الاشارة <i class="fas fa-tag"></i>
-            </button>
-        </div>
-    </div>
+        <div class="tab" style="min-width:100%; width: 100%;">
 
-    <div id="London" class="tabcontent" style="width: 1420px; ">
-
-        <div class="card container " style="width: 1300px;overflow-x: scroll;;
-        width: auto; height: 700px; 
-       white-space: nowrap; " >
-            <div class="card-body">
-
+            <div class="div01">
+                <button class="tablinks">
+                    <i class="fas fa-bell"></i>
+                </button>
+                <button class="tablinks">
+                    <i class="fas fa-location-arrow "></i>
+                </button>
+                <button class="tablinks"> التحكم في
+                    الرئيسية
+                    <i class="fas fa-plus-square"></i> </button>
+                <button class="tablinks"> ادارة الطلاب <i class="fas fa-cog"></i>
+                </button>
+                <button class=" " style=" font-weight: bold;   color: #00b894;
+                            " onclick="openCity(event, 'London')" id="defaultOpen">
+                    بنك الاسئلة <i class="fas fa-question-circle"></i> </button>
+                <button class="tablinks"> تعديل المواد
+                    <i class="fas fa-plus-circle"></i>
+                </button>
+                <button class="tablinks">تعديل الملخصات <i class="fas fa-plus-circle"></i>
+                </button>
+                <button class="tablinks"> التحكم في الاشارة <i class="fas fa-tag"></i>
+                </button>
             </div>
-            <form action="">
-
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">
-                        <div class="form-group">
-                            <label for="exampleFormControlTextarea1">السؤال </label>
-                            <div style="float: left; cursor: pointer;">
-                                <label style="cursor: pointer;">
-                                    <i class="fas fa-trash-alt m-1"></i>
-
-                                </label>
-                                <label style=" cursor: pointer;">
-                                    احذف السؤال
-                                </label>
-                            </div>
-
-                            <textarea class="form-control" placeholder="هل جميع الشركات تتشابة ببداية السنة المالية ؟"
-                                id="exampleFormControlTextarea1" rows="3"></textarea>
-                        </div>
+        </div>
 
 
+        <div class="card  ">
+            <br>
+            <h1 class="card-title">المحاضرة الاولي مدخل الي اساسيات المحاسبة </h1>
+            <br>
+            <h3 class="card-title"> إضافة اسئلة </h3>
+            <br>
+            <div class="card  " style="  height: 100%;border-radius: 24px;     margin-right: 79px;
+    margin-left: 80px;">
+                <div class="card-body" id="kk">
+                    <div class="card-body">
+                        <form action="">
 
-                    </li>
-                    <li class="list-group-item">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">
 
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input m-2" type="radio" name="inlineRadioOptions1"
-                                id="inlineRadio1" value="option1">
-                            <label class="form-check-label" for="inlineRadio1">اختيار من متعدد </label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input m-2	" type="radio" name="inlineRadioOptions1"
-                                id="inlineRadio2" value="option2">
-                            <label class="form-check-label" for="inlineRadio2">مقالي</label>
-                        </div>
-
-                    </li>
-                    <li class="list-group-item">
-
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input m-2" type="radio" name="inlineRadioOptions2"
-                                id="inlineRadio4" value="option1">
-                            <label class="form-check-label" for="inlineRadio4">تدريبي </label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input m-2" type="radio" name="inlineRadioOptions2"
-                                id="inlineRadio5" value="option2">
-                            <label class="form-check-label" for="inlineRadio5">عشوائي </label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input m-2" type="radio" name="inlineRadioOptions2"
-                                id="inlineRadio6" value="option2">
-                            <label class="form-check-label" for="inlineRadio6">كلاهما</label>
-                        </div>
-                    </li>
-                    <li class="list-group-item" style="    background-color: #9980fa4f; ">
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input m-2" type="radio" name="inlineRadioOptions3"
-                                id="inlineRadio7" value="option1">
-                            <label class="form-check-label" for="inlineRadio7">سهل </label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input m-2" type="radio" name="inlineRadioOptions3"
-                                id="inlineRadio8" value="option2">
-                            <label class="form-check-label" for="inlineRadio8">متوسط</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input m-2" type="radio" name="inlineRadioOptions3"
-                                id="inlineRadio9" value="option2">
-                            <label class="form-check-label" for="inlineRadio9">صعب</label>
-                        </div>
-                        <div style="float: left; cursor: pointer;">
-                            <label style="cursor: pointer; " class="m-2">
-                                <i class="fas fa-plus-circle"></i>
-
-                            </label>
-                            <label class="label02">
-
-                                إضافة اختيار </label>
-                        </div>
-                        <div style="float: left; cursor: pointer;">
-                            <label style="cursor: pointer;" class="m-2">
-                                <i class="fas fa-plus-circle"></i>
-
-                            </label>
-                            <label class="label02">
-
-                                إجابات مجمعة </label>
-                        </div>
-
-                    </li>
+                                    <div class="form-group">
 
 
-                    <li class="list-group-item">
-                        <div class="row">
-
-                            <div class="col-md-8 ">
-
-                                <div>
-                                    <!-- <label style="font-weight: bolder;font-size: 31px;padding-top: 10px;">أ</label> -->
-                                    <div>
+                                        <label for="exampleFormControlTextarea1">السؤال </label>
 
 
-                                        <label
-                                            class="label03">
-                                            نعم حسب الطبيعة النشاط والموسميه او وجود تعليمات تنظيمية قانونية
-                                        </label>
+                                        <div class="div00">
+                                            <label class="label00">
+                                                <i style="    color: #00b894;
+                                        bottom: 2px; right: 0px;" class="fas fa-trash-alt m-1"></i>
+
+
+                                            </label>
+                                            <label class="label00">
+                                                احذف السؤال
+                                            </label>
+                                        </div>
+
+                                        <textarea class="form-control"
+                                            placeholder="هل جميع الشركات تتشابة ببداية السنة المالية ؟"
+                                            id="exampleFormControlTextarea1" rows="3"></textarea>
                                     </div>
-                                    <i class="fas fa-times-circle fa-10x LeftIcon"></i>
-                                </div>
-                            </div>
 
-                            <div class="col-md-4"
-                                style="float: left; cursor: pointer; text-align: center; padding-top: 10px;">
-                                <div class="btn-group mr-2" role="group" aria-label="First group">
-                                    <button type="button" class="btn btn-secondary" style="background: white;    border-color: lightgray;
-"><i style="color: green;" class="fas fa-plus"></i></button>
-                                    <button type="button" class="btn btn-secondary" style="background: white;min-width: 70px;    border-color: lightgray;
+
+
+                                </li>
+                                <li class="list-group-item">
+
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input m-2" type="radio" name="inlineRadioOptions1"
+                                            id="inlineRadio1" value="option1">
+                                        <label class="form-check-label" for="inlineRadio1">اختيار من متعدد </label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input m-2	" type="radio" name="inlineRadioOptions1"
+                                            id="inlineRadio2" value="option2">
+                                        <label class="form-check-label" for="inlineRadio2">مقالي</label>
+                                    </div>
+
+                                </li>
+                                <li class="list-group-item">
+
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input m-2" type="radio" name="inlineRadioOptions2"
+                                            id="inlineRadio4" value="option1">
+                                        <label class="form-check-label" for="inlineRadio4">تدريبي </label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input m-2" type="radio" name="inlineRadioOptions2"
+                                            id="inlineRadio5" value="option2">
+                                        <label class="form-check-label" for="inlineRadio5">عشوائي </label>
+                                    </div>
+
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input m-2" type="radio" name="inlineRadioOptions2"
+                                            id="inlineRadio6" value="option2">
+
+                                        <label class="form-check-label" for="inlineRadio6">كلاهما</label>
+                                    </div>
+                                </li>
+                                <li class="list-group-item" style="    background-color: #9980fa26; ">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input m-2" type="radio" name="inlineRadioOptions3"
+                                            id="inlineRadio7" value="option1">
+                                        <label class="form-check-label" for="inlineRadio7">سهل </label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input m-2" type="radio" name="inlineRadioOptions3"
+                                            id="inlineRadio8" value="option2">
+                                        <label class="form-check-label" for="inlineRadio8">متوسط</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input m-2" type="radio" name="inlineRadioOptions3"
+                                            id="inlineRadio9" value="option2">
+                                        <label class="form-check-label" for="inlineRadio9">صعب</label>
+                                    </div>
+                                    <div style="float: left; cursor: pointer;">
+                                        <label style="cursor: pointer; " class="m-2">
+                                            <i class="fas fa-plus-circle"></i>
+
+                                        </label>
+                                        <label class="label02">
+
+                                            إضافة اختيار </label>
+                                    </div>
+                                    <div style="float: left; cursor: pointer;">
+                                        <label style="cursor: pointer;" class="m-2">
+                                            <i class="fas fa-plus-circle"></i>
+
+                                        </label>
+                                        <label class="label02">
+
+                                            إجابات مجمعة </label>
+                                    </div>
+
+                                </li>
+
+
+                                <li class="list-group-item" style="border: none;">
+                                    <div class="row">
+
+                                        <div class="col-md-8 ">
+
+                                            <div>
+                                                <!-- <label style="font-weight: bolder;font-size: 31px;padding-top: 10px;">أ</label> -->
+                                                <div>
+
+
+                                                    <label class="label03">
+                                                        نعم حسب الطبيعة النشاط والموسميه او وجود تعليمات تنظيمية قانونية
+                                                    </label>
+                                                </div>
+                                                <i class="fas fa-times-circle fa-10x LeftIcon"></i>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <div class="btn-group mr-2" role="group" aria-label="First group">
+                                                <button type="button" class="btn btn-secondary" style="background: white;    border-color: lightgray;
+"><i style="color: #00b894;" class="fas fa-plus"></i></button>
+                                                <button type="button" class="btn btn-secondary" style="background: white;min-width: 70px;    border-color: lightgray;
 "><span style="color: black;    
 "> 0 </span></button>
-                                    <button type="button" class="btn btn-secondary" style="background: white;    border-color: lightgray;
-"><i style="color: green;" class="fas fa-minus"></i></button>
-                                </div>
+                                                <button type="button" class="btn btn-secondary" style="background: white;    border-color: lightgray;
+"><i style="color: #00b894;" class="fas fa-minus"></i></button>
+                                            </div>
 
-                            </div>
-                        </div>
-                        <div class="row">
+                                        </div>
+                                    </div>
+                                    <div class="row">
 
-                            <div class="col-md-8 ">
+                                        <div class="col-md-8 ">
 
-                                <div>
-                                    <!-- <label style="font-weight: bolder;font-size: 31px;padding-top: 10px;">أ</label> -->
-                                    <div>
-                                        <!-- <span style="font-family: 'Cairo', sans-serif;    padding-left: 8px;
-                                    ">
+                                            <div>
+                                                <!-- <label style="font-weight: bolder;font-size: 31px;padding-top: 10px;">أ</label> -->
+                                                <div>
+                                                    <!-- <span style="font-family: 'Cairo', sans-serif;    padding-left: 8px;
+                                            ">
                                             أ</span> -->
 
-                                        <label
-                                            class="label03">
-                                            نعم حسب الطبيعة النشاط والموسميه او وجود تعليمات تنظيمية قانونية
-                                        </label>
-                                    </div>
-                                    <i class="fas fa-times-circle fa-10x LeftIcon"></i>
-                                </div>
-                            </div>
+                                                    <label class="label03">
+                                                        نعم هو دراسة كيفية استخدام المجتمعات للموارد الشحيحة </label>
+                                                </div>
+                                                <i class="fas fa-times-circle fa-10x LeftIcon"></i>
+                                            </div>
+                                        </div>
 
-                            <div class="col-md-4"
-                                style="float: left; cursor: pointer; text-align: center; padding-top: 10px;">
-                                <div class="btn-group mr-2" role="group" aria-label="First group">
-                                    <button type="button" class="btn btn-secondary" style="background: white;    border-color: lightgray;
-"><i style="color: green;" class="fas fa-plus"></i></button>
-                                    <button type="button" class="btn btn-secondary" style="background: white;min-width: 70px;    border-color: lightgray;
+                                        <div class="col-md-4">
+                                            <div class="btn-group mr-2" role="group" aria-label="First group">
+                                                <button type="button" class="btn btn-secondary" style="background: white;    border-color: lightgray;
+"><i style="color: #00b894;" class="fas fa-plus"></i></button>
+                                                <button type="button" class="btn btn-secondary" style="background: white;min-width: 70px;    border-color: lightgray;
 "><span style="color: black;    
 "> 0 </span></button>
-                                    <button type="button" class="btn btn-secondary" style="background: white;    border-color: lightgray;
-"><i style="color: green;" class="fas fa-minus"></i></button>
-                                </div>
+                                                <button type="button" class="btn btn-secondary" style="background: white;    border-color: lightgray;
+"><i style="color: #00b894;" class="fas fa-minus"></i></button>
+                                            </div>
 
-                            </div>
-                        </div>
-                        <div class="row">
+                                        </div>
+                                    </div>
+                                    <div class="row">
 
-                            <div class="col-md-8 ">
+                                        <div class="col-md-8 ">
 
-                                <div>
-                                    <!-- <label style="font-weight: bolder;font-size: 31px;padding-top: 10px;">أ</label> -->
-                                    <div>
-                                        <!-- <span style="font-family: 'Cairo', sans-serif;    padding-left: 8px;
-                                    ">
+                                            <div>
+                                                <div>
+
+
+                                                    <label class="label03">
+
+                                                        <span>
+                                                            لا حسب طبيعة النشاط والموسمية او وجود تعليمات تنظيمية
+                                                            قانونية
+                                                            ملزمة
+
+                                                        </span>
+                                                        <span>
+                                                            كذلك للمقارنة بينها ومواكبة السوق المالي
+                                                        </span>
+                                                    </label>
+
+                                                </div>
+                                                <i class="fas fa-times-circle fa-10x LeftIcon"></i>
+                                            </div>
+                                        </div>
+
+
+
+
+                                        <div class="col-md-4"
+                                            style="float: left; cursor: pointer; text-align: center; padding-top: 10px;">
+                                            <div class="btn-group mr-2" role="group" aria-label="First group">
+                                                <button type="button" class="btn btn-secondary" style="background: white;    border-color: lightgray;
+"><i style="color: #00b894;" class="fas fa-plus"></i></button>
+                                                <button type="button" class="btn btn-secondary" style="background: white;min-width: 70px;    border-color: lightgray;
+"><span style="color: black;    
+"> 0 </span></button>
+                                                <button type="button" class="btn btn-secondary" style="background: white;    border-color: lightgray;
+"><i style="color: #00b894;" class="fas fa-minus"></i></button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+
+                                    <div class="row">
+
+                                        <div class="col-md-8 ">
+
+                                            <div>
+                                                <!-- <label style="font-weight: bolder;font-size: 31px;padding-top: 10px;">أ</label> -->
+                                                <div>
+                                                    <!-- <span style="font-family: 'Cairo', sans-serif;    padding-left: 8px;
+                                            ">
                                             ب </span> -->
 
-                                        <label
-                                        class="label03">
-                                            نعم هو دراسة كيفية استخدام المجتمعات للموارد الشحيحة
-                                        </label>
-                                    </div>
-                                    <i class="fas fa-times-circle fa-10x LeftIcon"></i>
-                                </div>
-                            </div>
+                                                    <label class="label03">
 
-                            <div class="col-md-4"
-                                style="float: left; cursor: pointer; text-align: center; padding-top: 10px;">
-                                <div class="btn-group mr-2" role="group" aria-label="First group">
-                                    <button type="button" class="btn btn-secondary" style="background: white;    border-color: lightgray;
-"><i style="color: green;" class="fas fa-plus"></i></button>
-                                    <button type="button" class="btn btn-secondary" style="background: white;min-width: 70px;    border-color: lightgray;
+                                                        <span>
+                                                            لا حسب طبيعة النشاط والموسمية
+
+                                                        </span>
+
+                                                    </label>
+
+                                                </div>
+                                                <i class="fas fa-times-circle fa-10x LeftIcon"></i>
+                                            </div>
+                                        </div>
+
+
+
+
+                                        <div class="col-md-4">
+                                            <div class="btn-group mr-2" role="group" aria-label="First group">
+                                                <button type="button" class="btn btn-secondary" style="background: white;    border-color: lightgray;
+"><i style="color: #00b894;" class="fas fa-plus"></i></button>
+                                                <button type="button" class="btn btn-secondary" style="background: white;min-width: 70px;    border-color: lightgray;
 "><span style="color: black;    
 "> 0 </span></button>
-                                    <button type="button" class="btn btn-secondary" style="background: white;    border-color: lightgray;
-"><i style="color: green;" class="fas fa-minus"></i></button>
-                                </div>
+                                                <button type="button" class="btn btn-secondary" style="background: white;    border-color: lightgray;
+"><i style="color: #00b894;" class="fas fa-minus"></i></button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+
+                                    <div class="row">
+
+                                        <div class="col-md-8 ">
+
+                                            <div>
+                                                <!-- <label style="font-weight: bolder;font-size: 31px;padding-top: 10px;">أ</label> -->
+                                                <div>
+                                                    <!-- <span style="font-family: 'Cairo', sans-serif;    padding-left: 8px;
+                                            ">
+                                            ب </span> -->
+
+                                                    <label class="label03">
+
+                                                        <span>
+                                                            نعم حسب طبيعة النشاط والموسمية
+
+                                                        </span>
+
+                                                    </label>
+
+                                                </div>
+                                                <i class="fas fa-times-circle fa-10x LeftIcon"></i>
+                                            </div>
+                                        </div>
+
+
+
+
+                                        <div class="col-md-4">
+                                            <div class="btn-group mr-2" role="group" aria-label="First group">
+                                                <button type="button" class="btn btn-secondary" style="background: white;    border-color: lightgray;
+"><i style="color: #00b894;" class="fas fa-plus"></i></button>
+                                                <button type="button" class="btn btn-secondary" style="background: white;min-width: 70px;    border-color: lightgray;
+"><span style="color: black;    
+"> 0 </span></button>
+                                                <button type="button" class="btn btn-secondary" style="background: white;    border-color: lightgray;
+"><i style="color: #00b894;" class="fas fa-minus"></i></button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </li>
+                                <li class="list-group-item" style="border-bottom: none;">
+                                    <div class="form-group">
+                                        <label for="exampleFormControlTextarea1">سبب الاجابة الصحيحة </label>
+
+                                        <textarea class="form-control" id="exampleFormControlTextarea1"
+                                            rows="3"></textarea>
+                                    </div>
+
+                                    <div style="float: right; cursor: pointer;">
+                                        <label style="cursor: pointer;" class="m-2">
+                                            <i class="fas fa-plus-circle"></i>
+
+                                        </label>
+
+                                        <label class="label02">
+                                            ارفاق ملفات </label>
+
+                                    </div>
+
+                                    <br>
+                                    <br>
+                                    <i class="far fa-trash-alt"></i>
+                                    <label class="info" for="">جدول البيانات</label>
+                                    <!-- <i class="fas fa-times-circle fa-10x rightIcon"></i> -->
+                                    <i class="far fa-trash-alt" style="position: relative;
+                                                    bottom: 13px;color: #00b894;
+                                                    right: 10px;"></i>
+
+                                    <label class="infoo" for="">جدول البيانات</label>
+                                    <label style="border-bottom: solid;border-color: lightgray;    color: #697579db;    padding-right: 5px;
+
+    " for=""> 2 </label>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn04" style="width: 151px;background-color:  #00b894;
+                            height: 46px; margin-top: 10px;" class="btn btn-info">اضافة سؤال اخر</button>
+
+                            <div style="float: left; margin-top: 10px;;">
+
+                                <button type="button" style="width: 151px;    margin-left: 10px;background-color:  #b2bec3;    border-color: #b2bec3;
+    
+    
+    height: 46px;" class="btn btn-info ">الغاء </button>
+                                <button class="btn2" type="button" style="width: 151px;
+                                            height: 46px;background-color:  #00b894;" class="btn btn-info">حفظ</button>
 
                             </div>
-                        </div>
 
-                    </li>
-                    <li class="list-group-item">
-                        <div class="form-group">
-                            <label for="exampleFormControlTextarea1">سبب الاجابة الصحيحة </label>
+                            <br>
+                            <br>
 
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                        </div>
-
-                      
-                        <br>
-                        <button type="button" class="btn04" style="width: 151px;
-                        height: 46px;" class="btn btn-info">اضافة سؤال اخر</button>
-
-                        <div style="float: left; ;">
-
-                            <button type="button" style="width: 151px;    margin-left: 10px;
-
-                                        height: 46px;" class="btn btn-info ">الغاء </button>
-                            <button type="button" style="width: 151px;
-                                        height: 46px;" class="btn btn-info">حفظ</button>
-
-                        </div>
-                    </li>
-                </ul>
-
-
-                <br>
-                <br>
-
-            </form>
-            <!-- </div> -->
+                        </form>
+                        <!-- </div> -->
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
